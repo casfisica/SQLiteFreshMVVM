@@ -12,4 +12,3 @@ C:\Users\Software\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\o
 C:\Users\Software\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj\Debug\netstandard2.0\SQLiteFreshMVVM.dll
 C:\Users\Software\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj\Debug\netstandard2.0\ref\SQLiteFreshMVVM.dll
 C:\Users\Software\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj\Debug\netstandard2.0\SQLiteFreshMVVM.pdb
-C:\Users\Software\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj\Debug\netstandard2.0\SQLiteFreshMVVM.csproj.AssemblyReference.cache
