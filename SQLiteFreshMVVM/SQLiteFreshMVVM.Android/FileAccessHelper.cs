@@ -1,7 +1,10 @@
-﻿using System;
-namespace Inventory.Droid
+﻿
+namespace SQLiteFreshMVVM.Droid
 {
-    public class FileAccessHelper
+    /// <summary>
+    /// 
+    /// </summary>
+    internal class FileAccessHelper
     {
         public static string GetLocalFilePath(string filename)
         {

@@ -11,12 +11,12 @@ namespace SQLiteFreshMVVM.Models
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
-        public string userName { get; set; }
-        public string name { get; set; }
+        public string UserName { get; set; }
+        public string Name { get; set; }
         [MaxLength(12)]
-        public string password { get; set; }
-        [MaxLength(10)]
-        public string phone { get; set; }
+        public string Password { get; set; }
+
+        public bool Admin { get; set; }
         public User()
         {
         }
@@ -26,7 +26,7 @@ namespace SQLiteFreshMVVM.Models
         /// <returns></returns>
         public bool IsValid()
         {
-            return (!string.IsNullOrWhiteSpace(userName) && !string.IsNullOrWhiteSpace(password));
+            return (!string.IsNullOrWhiteSpace(UserName) && !string.IsNullOrWhiteSpace(Password));
         }
 
     }

@@ -1151,24 +1151,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Software\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\camilo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Software\\source\\repos\\SQLiteFreshMVVM\\SQLiteFreshMVVM\\SQLiteFreshMVVM\\SQLiteFreshMVVM.csproj",
+      "projectUniqueName": "C:\\Users\\camilo\\source\\repos\\SQLiteFreshMVVM\\SQLiteFreshMVVM\\SQLiteFreshMVVM\\SQLiteFreshMVVM.csproj",
       "projectName": "SQLiteFreshMVVM",
-      "projectPath": "C:\\Users\\Software\\source\\repos\\SQLiteFreshMVVM\\SQLiteFreshMVVM\\SQLiteFreshMVVM\\SQLiteFreshMVVM.csproj",
-      "packagesPath": "C:\\Users\\Software\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Software\\source\\repos\\SQLiteFreshMVVM\\SQLiteFreshMVVM\\SQLiteFreshMVVM\\obj\\",
+      "projectPath": "C:\\Users\\camilo\\source\\repos\\SQLiteFreshMVVM\\SQLiteFreshMVVM\\SQLiteFreshMVVM\\SQLiteFreshMVVM.csproj",
+      "packagesPath": "C:\\Users\\camilo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\camilo\\source\\repos\\SQLiteFreshMVVM\\SQLiteFreshMVVM\\SQLiteFreshMVVM\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Software\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\camilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -1,9 +1,10 @@
 ﻿using System;
-
+using FreshMvvm;
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
+using SQLiteFreshMVVM.Services;
 
 namespace SQLiteFreshMVVM.Droid
 {
@@ -16,6 +17,12 @@ namespace SQLiteFreshMVVM.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            //Inyectar la instancia del repositorio en Android
+            //crear el repositorio usando la clase FileAccessHelper de Android
+            var repository = new Repository(FileAccessHelper.GetLocalFilePath("Users.db3"));
+            //Con esto se puede acceder a esta instancia desde cualquier parte del programa
+            FreshIOC.Container.Register(repository);
+
             LoadApplication(new App());
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

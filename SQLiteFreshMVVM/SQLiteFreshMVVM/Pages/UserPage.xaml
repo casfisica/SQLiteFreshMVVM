@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Se debe de poner fresh:FreshBaseContentPage para enlazar freshmvvm-->
+<fresh:FreshBaseContentPage  xmlns:fresh="clr-namespace:FreshMvvm;assembly=FreshMvvm" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLiteFreshMVVM.Pages.UserPage">
+    <ContentPage.Content>
+        <StackLayout Padding="15" Spacing="5">
+            <Label Text="UserName" />
+            <Entry Text="{Binding User_UserName}" />
+            <Label Text="Nombre" />
+            <Entry Text="{Binding User_Name}" />
+            <Label Text="Contraseña" />
+            <Entry Text="{Binding User_Password}" />
+            <Button Text="Save" Command="{Binding SaveCommand}" />
+        </StackLayout>
+    </ContentPage.Content>
+</fresh:FreshBaseContentPage>
