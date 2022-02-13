@@ -62,10 +62,10 @@ namespace SQLiteFreshMVVM.PageModels
             _user = initData as User;
             if (_user == null) _user = new User();
             base.Init(initData);
-            RaisePropertyChanged(nameof(User_UserName));
-            RaisePropertyChanged(nameof(User_Name));
-            RaisePropertyChanged(nameof(User_Password));
-            RaisePropertyChanged(nameof(User_Admin));
+            //RaisePropertyChanged(nameof(User_UserName));
+            //RaisePropertyChanged(nameof(User_Name));
+            //RaisePropertyChanged(nameof(User_Password));
+            //RaisePropertyChanged(nameof(User_Admin));
         }
 
         /// <summary>
@@ -80,7 +80,8 @@ namespace SQLiteFreshMVVM.PageModels
                     if (_user.IsValid())
                     {
                         await _repository.CreateItem(_user);
-                        await CoreMethods.PopPageModel(_user);
+                        //await CoreMethods.PopPageModel(_user);
+                        await CoreMethods.PushPageModel<UserListPageModel>();
                     }
                 });
             }

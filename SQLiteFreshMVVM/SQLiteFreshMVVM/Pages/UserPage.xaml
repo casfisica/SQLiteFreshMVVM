@@ -11,7 +11,12 @@
             <Entry Text="{Binding User_Name}" />
             <Label Text="Contraseña" />
             <Entry Text="{Binding User_Password}" />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Administrador" VerticalOptions="Center"/>
+                <CheckBox IsChecked="{Binding User_Admin}" VerticalOptions="Center"/>
+            </StackLayout>
             <Button Text="Save" Command="{Binding SaveCommand}" />
+            
         </StackLayout>
     </ContentPage.Content>
 </fresh:FreshBaseContentPage>

@@ -50,10 +50,78 @@ namespace SQLiteFreshMVVM.Services
             }
         }
 
-        public Task<List<User>> GetAllItems()
+        public Task<List<User>> GetAllUsers()
         {
             // Return a list of items saved to the Item table in the database.
             return conn.Table<User>().ToListAsync();
         }
+
+
+        /// <summary>
+        /// Funcion para saber que si el usuario y la contrasena existen,
+        /// devuelve el id
+        /// </summary>
+        //public Task<int> IsValidUser(User user) 
+        //{
+
+        //} 
+
+        public Task<User> GetUserByID(int id)
+        {
+            // Get a specific note.
+            return conn.Table<User>()
+                            .Where(i => i.Id == id)
+                            .FirstOrDefaultAsync();
+        }
+
+        public Task<User> GetUserByUserName(string userName, string pwd)
+        {
+            //Validar si es null
+            var data = conn.Table<User>();
+            return data.Where(x => x.UserName == userName && x.Password == pwd).FirstOrDefaultAsync();
+        }
+
+        public bool LoginValidate(string userName, string pwd)
+        {
+
+            var data = conn.Table<User>();
+            var userToCheck = GetUserByUserName(userName, pwd);
+            if (userToCheck != null)
+            {
+                return true;
+            }
+            else
+                return false;
+        }
+
+        /// <summary>
+        /// Para optener un usuario espesifico, con su ID
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public Task<User> GetSpecificUser(int id)
+        {
+            return conn.Table<User>().FirstOrDefaultAsync(t => t.Id == id);
+        }
+
+        /// <summary>
+        /// Para Borrar usuario
+        /// </summary>
+        /// <param name="id"></param>
+        public void DeleteUser(int id)
+        {
+            conn.DeleteAsync<User>(id);
+        }
+
+        public Repository()
+        {
+            //User administrador = new User();
+            //administrador.Name = "camilo";
+            //administrador.Password ="poioiulkj";
+            //administrador.Admin = true;
+
+            //_ = CreateItem(administrador);
+        }
+
     }
 }

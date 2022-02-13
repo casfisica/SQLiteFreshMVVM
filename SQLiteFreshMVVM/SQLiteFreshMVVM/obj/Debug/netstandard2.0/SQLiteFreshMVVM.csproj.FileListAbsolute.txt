@@ -1,6 +1,5 @@
 C:\Users\Software\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj\Debug\netstandard2.0\SQLiteFreshMVVM.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Software\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Software\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Software\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj\Debug\netstandard2.0\SQLiteFreshMVVM.AssemblyInfoInputs.cache
 C:\Users\Software\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj\Debug\netstandard2.0\SQLiteFreshMVVM.AssemblyInfo.cs
 C:\Users\Software\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj\Debug\netstandard2.0\SQLiteFreshMVVM.csproj.CoreCompileInputs.cache
@@ -28,3 +27,8 @@ C:\Users\camilo\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj
 C:\Users\camilo\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj\Debug\netstandard2.0\SQLiteFreshMVVM.dll
 C:\Users\camilo\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj\Debug\netstandard2.0\ref\SQLiteFreshMVVM.dll
 C:\Users\camilo\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj\Debug\netstandard2.0\SQLiteFreshMVVM.pdb
+C:\Users\Software\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj\Debug\netstandard2.0\Pages\UserPage.xaml.g.cs
+C:\Users\Software\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj\Debug\netstandard2.0\Pages\LogInPage.xaml.g.cs
+C:\Users\Software\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj\Debug\netstandard2.0\SQLiteFreshMVVM.csproj.AssemblyReference.cache
+C:\Users\Software\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj\Debug\netstandard2.0\Pages\PrincipalPage.xaml.g.cs
+C:\Users\Software\source\repos\SQLiteFreshMVVM\SQLiteFreshMVVM\SQLiteFreshMVVM\obj\Debug\netstandard2.0\Pages\UserListPage.xaml.g.cs
