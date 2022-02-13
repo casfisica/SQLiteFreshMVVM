@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<fresh:FreshBaseContentPage  xmlns:fresh="clr-namespace:FreshMvvm;assembly=FreshMvvm"
+                             xmlns="http://xamarin.com/schemas/2014/forms"
+                             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                             x:Class="SQLiteFreshMVVM.Pages.UserListPage">
+    <fresh:FreshBaseContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Command="{Binding AddUserCommand}" />
+    </fresh:FreshBaseContentPage.ToolbarItems>
+    <ListView ItemsSource="{Binding Users}" SelectedItem="{Binding SelectedUser}">
+        <ListView.ItemTemplate >
+            <DataTemplate>
+                <TextCell Text="{Binding Name}" Detail="{Binding UserName}" />
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</fresh:FreshBaseContentPage>
